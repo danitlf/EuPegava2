@@ -11,7 +11,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DBOpenHelper extends SQLiteOpenHelper {
     //classe que cria tabelas e banco de dados
 
-    private static final int DATABASE_VERSION = 1 ;
+    private static final int DATABASE_VERSION = 1;
     private static final String DATABASE_NAME = "DataBase";
 
     public DBOpenHelper(Context context) {
