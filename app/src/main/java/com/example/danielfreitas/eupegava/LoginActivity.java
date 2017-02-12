@@ -61,7 +61,7 @@ public class LoginActivity extends AppCompatActivity {
         permissoes.add("public_profile");
         loginButton.setReadPermissions(permissoes);
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
-
+            //funcs que rodam apos tentar fazer login
             @Override
             public void onSuccess(LoginResult loginResult) {
                 Profile profile = Profile.getCurrentProfile();
