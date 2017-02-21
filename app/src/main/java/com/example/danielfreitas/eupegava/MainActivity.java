@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         FacebookSdk.sdkInitialize(getApplicationContext());
         setContentView(R.layout.activity_main);
-
+        //lucas esteve aqui
         try {
             PackageInfo info = getPackageManager().getPackageInfo(
                     "com.example.danielfreitas.eupegava",
